@@ -13,7 +13,7 @@ public class Banco {
 // Construtor que inicializa os atributos da classe, mesmo que estejam encapsulados (privados),
 //porque estamos dentro da própria classe.
 public Banco (String nome, int numero, int agencia) {
-	this.nome = nome;
+	this.nome = nome; // O this faz referencia ao parametro do Objeto.
 	this.numero = numero;
 	this.agencia = agencia;            
 	this.saldo = 0.00;
